@@ -23,6 +23,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id=7]
 resource_name = "Walk"
+length = 0.4
 tracks/0/type = "value"
 tracks/0/path = NodePath("Node2D/Sprite:frame")
 tracks/0/interp = 1
@@ -30,7 +31,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5 ),
+"times": PoolRealArray( 0, 0.2 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
 "values": [ 3, 5 ]
@@ -116,7 +117,6 @@ position = Vector2( 128, 19 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 3 )
 vframes = 5
-frame = 1
 
 [node name="Gun_fire_point" type="Position2D" parent="Node2D"]
 position = Vector2( 113, -5 )

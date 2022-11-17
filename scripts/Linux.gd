@@ -12,7 +12,6 @@ func shoot():
 	time = 0.25
 	var bullet = bulletPath.instance()
 	
-	
 	var value_to_add = Vector2(0,0)
 	if direction == "left":
 		bullet.velocity = Vector2(-1,0)
