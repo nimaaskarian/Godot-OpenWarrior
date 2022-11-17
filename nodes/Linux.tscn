@@ -119,7 +119,7 @@ texture = ExtResource( 3 )
 vframes = 5
 
 [node name="Gun_fire_point" type="Position2D" parent="Node2D"]
-position = Vector2( 113, -5 )
+position = Vector2( 113, 17 )
 
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="."]
 anims/Fire = SubResource( 9 )

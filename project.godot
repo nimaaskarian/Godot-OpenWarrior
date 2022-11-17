@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="OpenWarrior"
-run/main_scene="res://nodes/Linux.tscn"
+run/main_scene="res://nodes/Map.tscn"
 config/icon="res://icon.png"
 
 [gui]
